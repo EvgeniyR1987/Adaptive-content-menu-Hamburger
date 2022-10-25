@@ -73,6 +73,9 @@ html,body {
   text-decoration:none;
 }
 @media (max-width:767px){
+  body.lock {
+    overflow: hidden;
+  }
   .header_body{
     height: 50px;
   }
