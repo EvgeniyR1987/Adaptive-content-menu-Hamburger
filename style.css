@@ -154,6 +154,7 @@ html,body {
   padding: 100px 0px 0px 0px;
 }
 .content_text {
+  word-break: break-all;
   font-size: 18px;
   line-height: 25px;
 }
