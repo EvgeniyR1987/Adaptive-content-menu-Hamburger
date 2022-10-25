@@ -1,10 +1,9 @@
-$(document).ready(function() {
-
-    $('.header__burger').click(function(event){
-        $('.header__burger,.header__menu').toggleClass('active');
-        $('body').toggleClass('lock');  
-    }) 
-})
-$('.header__list').click(function(event) {
-        $('.header__burger,.header__menu').removeClass('active');
-        $('body').removeClass('lock');})
+$(document).ready(function(){
+  $('.header_burger').click(function(event){
+  $('.header_burger,.header_menu').toggleClass('active');
+  $('body').toggleClass('lock');
+    $('.header_list li').click(function (event) {
+	$('.header_burger, .header_menu').removeClass('active');
+});
+  });
+});
