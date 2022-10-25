@@ -110,7 +110,7 @@ html,body {
     transition: all 0.3s ease 0s;
   }
   .header_burger:before {
-    top: 0;
+    top: 1px;
   }
   .header_burger:after {
     bottom: 0;
