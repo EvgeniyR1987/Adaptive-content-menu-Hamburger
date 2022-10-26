@@ -4,6 +4,7 @@ $(document).ready(function(){
   $('body').toggleClass('lock');
     $('.header_list li').click(function (event) {
 	$('.header_burger, .header_menu').removeClass('active');
+      $('body').removeClass('lock');
 });
   });
 });
